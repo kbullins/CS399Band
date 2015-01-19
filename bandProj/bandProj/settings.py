@@ -1,5 +1,5 @@
 """
-Django settings for helloworld project.
+Django settings for bandProj project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.7/topics/settings/
@@ -12,21 +12,18 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
-# Bootstrap CCN
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '&nz&ki!3+8*s^hw$+xwv9nvkha0a#)!+%dfa_9)0$h0o!h3l*1'
+SECRET_KEY = '8^3a-ez+okffe2bwbx$pt&o!@p(r_6gq0zcv^=72i&gfp0d*r#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 TEMPLATE_DEBUG = True
 
-TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'helloworld/templates')]
+TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'bandProj/templates')]
 
 ALLOWED_HOSTS = []
 
@@ -52,9 +49,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'helloworld.urls'
+ROOT_URLCONF = 'bandProj.urls'
 
-WSGI_APPLICATION = 'helloworld.wsgi.application'
+WSGI_APPLICATION = 'bandProj.wsgi.application'
 
 
 # Database
@@ -86,3 +83,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")];
+
