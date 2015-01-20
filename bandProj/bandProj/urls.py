@@ -1,7 +1,8 @@
 from django.conf.urls import patterns, include, url
 from django.conf.urls.static import static
 # from django.contrib import admin
-from views import home, theBand
+from views import home, theBand, news, tour, music
+
 
 urlpatterns = patterns('',
     # Examples:
@@ -12,4 +13,7 @@ urlpatterns = patterns('',
     # Example link: <a href="\theBand">Meet the Band!</a>
     url(r'^$', home),
 	url(r'^theBand', theBand),
+	url(r'^news', news),
+	url(r'^tour', tour),
+	url(r'^music', music),
 )
