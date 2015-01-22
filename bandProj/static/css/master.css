@@ -1,7 +1,7 @@
 /* Style for Slide 1 */
 .slidestyleone {
     position: absolute;
-    text-align: right;
+    text-align: left;
     top: 50px;
     left: 200px;
     width: 80%;
@@ -13,8 +13,8 @@
 /* Style for Slide 2 */
 .slidestyletwo {
     position: absolute;
-    text-align: left;
-    top: 400px;
+    text-align: right;
+    top: 380px;
     right: 200px;
     width: 80%;
     color: white;
@@ -26,7 +26,7 @@
 /* Style for Slide 3 */
 .slidestylethree {
     position: absolute;
-    text-align: left;
+    text-align: right;
     top: 50px;
     right: 200px;
     width: 80%;
